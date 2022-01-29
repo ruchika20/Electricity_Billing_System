@@ -46,11 +46,7 @@ public class Login extends JFrame implements ActionListener
         c1.setBounds(400, 100, 150, 20);
         add(c1);
         
-        ImageIcon ic1= new ImageIcon(ClassLoader.getSystemResource("icon/login.png"));
-        Image i1= ic1.getImage().getScaledInstance(16,16,Image.SCALE_DEFAULT);
-        b1= new JButton("Login", new ImageIcon(i1));
-        b1.setBounds(330, 160, 100, 20);
-        add(b1);
+        
         
         ImageIcon ic2= new ImageIcon(ClassLoader.getSystemResource("icon/cancel.jpg"));
         Image i2= ic2.getImage().getScaledInstance(16,16,Image.SCALE_DEFAULT);
